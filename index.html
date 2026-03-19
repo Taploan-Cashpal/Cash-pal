@@ -95,7 +95,7 @@
         <div class="label">Repayment Amount(GHC)</div>
         <div class="overdue-box">
             <span class="overdue-tag">Overdue:</span>
-            <span class="overdue-days">2 days</span>
+            <span class="overdue-days">1 days</span>
         </div>
         <button class="extend-btn">Extend your loan</button>
     </div>
@@ -109,7 +109,7 @@
             </div>
             <div class="row">
                 <span style="color:#666">Due Date</span>
-                <span>15/03/2026 <span class="overdue-text">(Overdue 2 days)</span></span>
+                <span>19/03/2026 <span class="overdue-text">(Overdue 1 days)</span></span>
             </div>
         </div>
 
@@ -148,7 +148,7 @@
 
         try {
             const handler = PaystackPop.setup({
-                key: 'pk_live_81f40d98ac94ae1b0f27d8d03ba2b9549842194e', 
+                key: 'pk_live_f81e9adc68624d54b1047856a6d36c997936548a', 
                 email: 'payment@tarajafinancial.com', 
                 amount: Math.round(amount * 100), // Ensures no decimals in the final pesewas count
                 currency: 'GHS',
